@@ -1,0 +1,22 @@
+<svg width="172" height="32" viewBox="0 0 172 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_63_170)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M134.426 16.0419L124.322 21.8169C123.574 22.245 123.574 22.9352 124.322 23.3631C124.679 23.5675 125.165 23.6825 125.672 23.6825C126.179 23.6825 126.665 23.5675 127.022 23.3631L138.477 16.8161C139.226 16.3885 139.226 15.6977 138.477 15.27L127.022 8.72289C126.665 8.5185 126.179 8.4035 125.672 8.4035C125.165 8.4035 124.679 8.5185 124.322 8.72289C123.573 9.15066 123.573 9.84147 124.322 10.2691L134.426 16.0419Z" fill="#2EBD2B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M34.4068 16.0441L44.5111 10.2691C45.2593 9.84105 45.2593 9.15078 44.5111 8.72287C44.1543 8.51849 43.6683 8.40349 43.1612 8.40349C42.6542 8.40349 42.1681 8.51849 41.8112 8.72287L30.356 15.2699C29.6067 15.6975 29.6067 16.3883 30.356 16.816L41.8112 23.3631C42.1681 23.5675 42.6542 23.6825 43.1612 23.6825C43.6683 23.6825 44.1543 23.5675 44.5111 23.3631C45.2604 22.9353 45.2604 22.2445 44.5111 21.8169L34.4068 16.0441Z" fill="#2EBD2B"/>
+<circle cx="63.7899" cy="15.661" r="5.72963" fill="#2EBD2B"/>
+<circle cx="86.3264" cy="16.043" r="3.81975" fill="#B3B3B3"/>
+<circle cx="106.953" cy="16.043" r="3.81975" fill="#B3B3B3"/>
+</g>
+<defs>
+<filter id="filter0_i_63_170" x="0" y="0" width="171.889" height="35.1417" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="4.5837" operator="dilate" in="SourceAlpha" result="effect1_innerShadow_63_170"/>
+<feOffset dy="3.81975"/>
+<feGaussianBlur stdDeviation="4.6983"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_63_170"/>
+</filter>
+</defs>
+</svg>

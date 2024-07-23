@@ -1,0 +1,2764 @@
+.rectangle {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.menu-item {
+  width: 30px;
+  text-decoration: none !important;
+  color: inherit;
+  text-wrap: nowrap;
+}
+.call-icon1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.support-email {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.email-icon1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.supportcercarentcom1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contact-info1,
+.header-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.header-contact {
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.facebook-icon1,
+.instagram-icon1,
+.linkedin-icon1,
+.twitter-icon1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+  z-index: 1;
+}
+.social-icons {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.social-icons,
+.social-media,
+.top-navbar1 {
+  display: flex;
+  align-items: flex-start;
+}
+.social-media {
+  width: 12rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.top-navbar1 {
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-xl) var(--padding-base)
+    var(--padding-49xl);
+  position: sticky;
+  gap: var(--gap-569xl);
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--text-text-2-size);
+  color: var(--black);
+  font-family: var(--text-text-1);
+}
+.line-div,
+.pagina-2-inner,
+.top-navbar1 {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.line-div {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--gray-2);
+  opacity: 0.5;
+}
+.pagina-2-inner {
+  height: 0.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs);
+}
+.background1 {
+  width: 96rem;
+  height: 7.5rem;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.rent2 {
+  color: var(--color-forestgreen-100);
+}
+.cercarent1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.brand-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-xs) 0 0;
+  font-size: var(--font-size-17xl);
+}
+.faq1,
+.services1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 4.688rem;
+}
+.faq1 {
+  min-width: 2.25rem;
+}
+.nav-links1,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+}
+.nav-links1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navigation {
+  width: 10.438rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  color: var(--black);
+}
+.sign-in1 {
+  text-decoration: underline;
+  position: relative;
+  line-height: 2.5rem;
+  color: inherit;
+  display: inline-block;
+  min-width: 3.5rem;
+}
+.button-container,
+.button3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button3 {
+  border-radius: var(--br-base);
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.button-container {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.sign-up1 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--text-text-2-size);
+  font-weight: 600;
+  font-family: var(--text-text-1);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 4.375rem;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base-5) var(--padding-8xl);
+  background-color: var(--primary);
+  border-radius: var(--br-mini);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button-rental:hover,
+.button4:hover {
+  background-color: var(--color-green);
+}
+.auth-buttons1,
+.button4,
+.hero-content,
+.hero-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.auth-buttons1 {
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  color: var(--primary);
+  font-family: var(--font-nunito-sans);
+}
+.hero-content,
+.hero-content-wrapper {
+  max-width: 100%;
+}
+.hero-content {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.hero-content-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.tipologia {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 5.938rem;
+}
+.fuel-icon-pair {
+  width: 1.156rem;
+  height: 0.563rem;
+  position: relative;
+}
+.fuel-type-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.fuel-type-labels {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.body-type-icons {
+  align-self: stretch;
+  height: 0.125rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fuel-type-options {
+  width: 13.688rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.checkbox-kontur,
+.checkbox-kontur1,
+.checkbox-kontur2,
+.group-input {
+  margin: 0;
+  width: 1.625rem;
+  height: 1.663rem;
+  position: relative;
+}
+.body-type-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.306rem;
+}
+.berlina1,
+.city-car,
+.suv-crossover {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 3.375rem;
+}
+.city-car,
+.suv-crossover {
+  min-width: 3.875rem;
+}
+.suv-crossover {
+  min-width: 7.75rem;
+}
+.suv-crossover-option {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-7xs);
+}
+.station-wagon {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 7.188rem;
+}
+.body-type-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.781rem;
+}
+.more-body-types {
+  flex-direction: column;
+  padding: var(--padding-9xs-8) 0 0;
+}
+.body-type-filter,
+.fuel-type-filter,
+.more-body-types {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.body-type-filter {
+  flex-direction: row;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--black1);
+}
+.fuel-type-filter {
+  align-self: stretch;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--white);
+  border: 1px solid var(--stroke);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-14xl) var(--padding-2xl) var(--padding-15xl);
+  gap: var(--gap-13xl-5);
+}
+.alimentazione {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 600;
+}
+.vector-icon {
+  width: 1.156rem;
+  height: 0.563rem;
+  position: relative;
+}
+.vector-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.alimentazione-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-child16 {
+  align-self: stretch;
+  height: 0.125rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-container {
+  width: 13.688rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0.693rem;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.checkbox-kontur3 {
+  margin: 0;
+  height: 1.663rem;
+  width: 1.625rem;
+  position: relative;
+}
+.benzina {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 3.875rem;
+}
+.benzina-wrapper,
+.checkbox-kontur-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.benzina-wrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs-8) 0 0;
+}
+.checkbox-kontur-parent {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.checkbox-kontur4 {
+  margin: 0;
+  height: 1.663rem;
+  width: 1.625rem;
+  position: relative;
+}
+.diesel {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 2.938rem;
+}
+.diesel-option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-8) 0 0;
+}
+.checkbox-kontur-group,
+.electric-hybrid-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.electric-hybrid-filter {
+  height: 4.663rem;
+  flex-direction: column;
+  padding: 0 0 var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl-4);
+}
+.checkbox-kontur5 {
+  margin: 0;
+  height: 1.663rem;
+  width: 1.625rem;
+  position: relative;
+}
+.elettrico {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 3.938rem;
+}
+.electric-label,
+.electric-option {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.electric-label {
+  flex-direction: column;
+  padding: var(--padding-9xs-8) 0 0;
+}
+.electric-option {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.checkbox-kontur6 {
+  margin: 0;
+  height: 1.663rem;
+  width: 1.625rem;
+  position: relative;
+}
+.ibrido {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 2.813rem;
+}
+.hybrid-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-8) 0 0;
+}
+.electric-hybrid-filter1,
+.fuel-type-filter1,
+.hybrid-option {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.electric-hybrid-filter1,
+.fuel-type-filter1 {
+  flex-direction: column;
+  gap: var(--gap-2xl-4);
+}
+.electric-hybrid-filter1 {
+  height: 4.663rem;
+  padding: 0 0 var(--padding-29xl);
+  box-sizing: border-box;
+}
+.fuel-type-filter1 {
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid var(--stroke);
+  overflow: hidden;
+  padding: var(--padding-13xl) var(--padding-2xl) var(--padding-14xl);
+  font-size: var(--font-size-base);
+  color: var(--black1);
+}
+.cambio {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 5.125rem;
+}
+.gearbox-dropdown-icon {
+  width: 1.156rem;
+  height: 0.563rem;
+  position: relative;
+}
+.gearbox-icon,
+.gearbox-options {
+  display: flex;
+  align-items: flex-start;
+}
+.gearbox-icon {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.gearbox-options {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.gearbox-filter-child {
+  align-self: stretch;
+  height: 0.125rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.checkbox-kontur7 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.rectangle-input {
+  margin: 0;
+  position: absolute;
+  top: 0.438rem;
+  left: 0.438rem;
+  border-radius: var(--br-11xs);
+  width: 0.75rem;
+  height: 0.75rem;
+  z-index: 1;
+}
+.transmission-labels {
+  height: 1.663rem;
+  width: 1.625rem;
+  position: relative;
+}
+.transmission-checkboxes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.automatico {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 5.875rem;
+}
+.transmission-names,
+.transmission-options {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transmission-names {
+  flex-direction: column;
+  padding: var(--padding-9xs-8) 0 0;
+}
+.transmission-options {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.checkbox-kontur8 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.rectangle-input1 {
+  margin: 0;
+  position: absolute;
+  top: 0.438rem;
+  left: 0.438rem;
+  border-radius: var(--br-11xs);
+  width: 0.75rem;
+  height: 0.75rem;
+  z-index: 1;
+}
+.checkbox-kontur-container {
+  height: 1.663rem;
+  width: 1.625rem;
+  position: relative;
+}
+.transmission-options-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.manuale {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 4.313rem;
+}
+.manuale-wrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs-8) 0 0;
+}
+.gearbox-filter,
+.manuale-wrapper,
+.transmission-filter,
+.transmission-options1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transmission-options1 {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.gearbox-filter,
+.transmission-filter {
+  flex-direction: column;
+}
+.transmission-filter {
+  gap: var(--gap-2xl-4);
+  font-size: var(--font-size-base);
+  color: var(--black1);
+}
+.gearbox-filter {
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid var(--stroke);
+  overflow: hidden;
+  padding: var(--padding-14xl) var(--padding-4xl) var(--padding-15xl) 1.5rem;
+  gap: var(--gap-xl);
+}
+.brand-filter-child {
+  width: 0.75rem;
+  height: 0.75rem;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--primary);
+  display: none;
+}
+.marca-auto {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.375rem;
+}
+.brand-dropdown-icon {
+  width: 1.156rem;
+  height: 0.563rem;
+  position: relative;
+}
+.brand-icon,
+.brand-input {
+  display: flex;
+  align-items: flex-start;
+}
+.brand-icon {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.brand-input {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.brand-options-child {
+  align-self: stretch;
+  height: 0.125rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brand-options {
+  width: 13.688rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.checkbox-kontur10,
+.checkbox-kontur11,
+.checkbox-kontur12,
+.checkbox-kontur9 {
+  margin: 0;
+  width: 1.625rem;
+  height: 1.663rem;
+  position: relative;
+}
+.more-brands {
+  margin: 0;
+  width: 1.688rem;
+  height: 1.663rem;
+}
+.brand-checkboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.alfa-romeo,
+.audi,
+.bmw,
+.citroen,
+.cupra {
+  position: relative;
+  line-height: 1.188rem;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 5.688rem;
+}
+.audi,
+.bmw,
+.citroen,
+.cupra {
+  min-width: 2.438rem;
+}
+.audi,
+.citroen,
+.cupra {
+  min-width: 3.625rem;
+}
+.audi,
+.cupra {
+  min-width: 3.125rem;
+}
+.audi {
+  min-width: 2.25rem;
+}
+.audi-brand,
+.brand-names,
+.more-brand-names {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.audi-brand {
+  flex-direction: row;
+  padding: 0 var(--padding-xs) 0 var(--padding-11xs);
+}
+.brand-names,
+.more-brand-names {
+  flex-direction: column;
+  gap: var(--gap-6xl-7);
+}
+.brand-names {
+  gap: var(--gap-10xl);
+}
+.brand-list {
+  flex-direction: column;
+  padding: var(--padding-9xs-8) 0 0;
+}
+.brand-checkbox-container,
+.brand-filter,
+.brand-list,
+.filter-options {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brand-checkbox-container {
+  flex-direction: row;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-base);
+  color: var(--black1);
+}
+.brand-filter,
+.filter-options {
+  flex-direction: column;
+}
+.brand-filter {
+  border-radius: 0 0 var(--br-mini) var(--br-mini);
+  background-color: var(--white);
+  border: 1px solid var(--stroke);
+  overflow: hidden;
+  padding: 1.562rem var(--padding-3xl) 1.75rem;
+  gap: var(--gap-13xl-5);
+}
+.filter-options {
+  width: 16.75rem;
+}
+.cerca2 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 3.063rem;
+}
+.search-term {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+}
+.search-field-child {
+  height: 2.563rem;
+  width: 2.563rem;
+  position: relative;
+  object-fit: contain;
+}
+.search-field,
+.search-input {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.search-field {
+  width: 37.5rem;
+  box-shadow: 0 3px 6.9px rgba(213, 204, 204, 0.24);
+  border-radius: var(--br-11xl);
+  background-color: #e7e7e7;
+  border: 1px solid var(--stroke);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-11xs) var(--padding-7xs) var(--padding-10xs)
+    var(--padding-12xl);
+  gap: var(--gap-xl);
+}
+.search-input {
+  width: 54.125rem;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.recomendation-car1,
+.view-all {
+  position: relative;
+  font-weight: 600;
+}
+.view-all {
+  font-size: var(--font-size-mini-7);
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--blue-5);
+  display: inline-block;
+  min-width: 3.625rem;
+}
+.recomendation-car {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.audi-q3,
+.pronta-consegna {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.563rem;
+}
+.pronta-consegna {
+  flex: 1;
+  font-weight: 600;
+  min-width: 8.063rem;
+}
+.form-2-3-icon {
+  width: 0.938rem;
+  height: 0.75rem;
+  position: relative;
+}
+.form-2-3-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.pronta-consegna-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.audi-q3-parent,
+.frame-wrapper,
+.pronta-consegna-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs-9) 0 0;
+  box-sizing: border-box;
+  min-width: 6.25rem;
+  text-align: center;
+  font-size: var(--font-size-mini-7);
+  color: var(--primary);
+}
+.audi-q3-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 2.681rem;
+}
+.suv {
+  position: relative;
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+  display: inline-block;
+  min-width: 1.563rem;
+}
+.frame-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-7);
+}
+.car-icon4 {
+  align-self: stretch;
+  height: 7.256rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.vuesaxboldgas-station-icon {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+}
+.l {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.438rem;
+}
+.l-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.vuesaxboldgas-station-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-4);
+}
+.car-icon5 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.375rem;
+}
+.manual {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.125rem;
+}
+.manual-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.car-parent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-4);
+  min-width: 3.188rem;
+}
+.vuesaxboldprofile-2user-icon {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+}
+.people {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.5rem;
+}
+.people-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.spesification,
+.vuesaxboldprofile-2user-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.vuesaxboldprofile-2user-parent {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-6xs-4);
+  min-width: 3.438rem;
+}
+.spesification {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-7xl-1);
+}
+.rata1,
+.spesification {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.logo-positivo-1-icon,
+.rata {
+  position: relative;
+  flex-shrink: 0;
+}
+.rata {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.125rem;
+}
+.logo-positivo-1-icon {
+  height: 1.494rem;
+  width: 6.181rem;
+  object-fit: contain;
+}
+.rata-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.div2 {
+  position: relative;
+  font-size: var(--font-size-xs-1);
+  text-decoration: line-through;
+  font-weight: 600;
+  color: var(--neutral-gray-4);
+  display: inline-block;
+  min-width: 2.938rem;
+  white-space: nowrap;
+}
+.frame-parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-chocolate);
+}
+.rent-now {
+  position: relative;
+  font-size: var(--font-size-mini-7);
+  font-weight: 600;
+  font-family: var(--text-text-1);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 4.438rem;
+}
+.button-rental,
+.button-rental-wrapper,
+.div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-rental {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-3) var(--padding-mid) var(--padding-3xs-2);
+  background-color: var(--primary);
+  border-radius: 11.06px;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button-rental-wrapper,
+.div1 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.div1 {
+  border-radius: 11.06px;
+  background-color: var(--white);
+  border: 0.9px solid var(--stroke);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-lgi) var(--padding-2xl)
+    var(--padding-2xl);
+  gap: 1.768rem;
+}
+.audi-q31,
+.suv1 {
+  position: relative;
+  display: inline-block;
+}
+.audi-q31 {
+  font-weight: 500;
+  min-width: 4.563rem;
+}
+.suv1 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+  min-width: 1.563rem;
+}
+.audi-q3-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-7);
+}
+.su-ordinazione {
+  position: relative;
+  font-size: var(--font-size-mini-7);
+  font-weight: 600;
+  color: var(--color-darkgray-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 6.938rem;
+}
+.frame-parent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.price {
+  width: 7.375rem;
+  height: 2.531rem;
+  display: none;
+}
+.car-icon6 {
+  align-self: stretch;
+  height: 7.256rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.vuesaxboldgas-station-icon1 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+}
+.l1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.438rem;
+}
+.l-container,
+.vuesaxboldgas-station-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.l-container {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.vuesaxboldgas-station-group {
+  flex-direction: row;
+  gap: var(--gap-5xs-4);
+}
+.car-icon7 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.375rem;
+}
+.manual1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.125rem;
+}
+.car-parent2,
+.manual-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.manual-container {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.car-parent2 {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-5xs-3);
+  min-width: 3.188rem;
+}
+.vuesaxboldprofile-2user-icon1 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+}
+.people1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.5rem;
+}
+.people-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.spesification1,
+.vuesaxboldprofile-2user-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vuesaxboldprofile-2user-group {
+  flex: 1;
+  gap: var(--gap-6xs-4);
+  min-width: 3.438rem;
+}
+.spesification1 {
+  align-self: stretch;
+  gap: 1.643rem;
+}
+.rata3 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.logo-positivo-1-icon1,
+.rata2 {
+  position: relative;
+  flex-shrink: 0;
+}
+.rata2 {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.313rem;
+}
+.logo-positivo-1-icon1 {
+  height: 1.494rem;
+  width: 6.181rem;
+  object-fit: contain;
+}
+.rata-group {
+  flex-direction: row;
+  gap: var(--gap-19xl);
+}
+.frame-wrapper1,
+.rata-group,
+.spesification-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper1 {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--font-size-lg-4);
+  color: var(--color-chocolate);
+}
+.spesification-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-10xl-2);
+}
+.rent-now1 {
+  position: relative;
+  font-size: var(--font-size-mini-7);
+  font-weight: 600;
+  font-family: var(--text-text-1);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 4.438rem;
+}
+.button-rental-container,
+.button-rental1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-rental1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-3) var(--padding-mid) var(--padding-3xs-2);
+  background-color: var(--stroke);
+  border-radius: 11.06px;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button-rental1:hover {
+  background-color: var(--color-silver-100);
+}
+.button-rental-container {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+}
+.div3,
+.frame-parent5,
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent5 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-6xl-7);
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.div3,
+.parent {
+  align-items: flex-start;
+}
+.div3 {
+  align-self: stretch;
+  border-radius: 11.06px;
+  background-color: var(--white);
+  border: 0.9px solid var(--stroke);
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-xl)
+    var(--padding-3xl);
+  gap: var(--gap-10xl-5);
+}
+.parent {
+  flex: 1;
+  gap: var(--gap-15xl-1);
+  min-width: 14.688rem;
+}
+.audi-q32,
+.pronta-consegna1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.563rem;
+}
+.pronta-consegna1 {
+  flex: 1;
+  font-weight: 600;
+  min-width: 8.063rem;
+}
+.form-2-3-icon1 {
+  width: 0.938rem;
+  height: 0.75rem;
+  position: relative;
+}
+.form-2-3-container {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.form-2-3-container,
+.frame-wrapper2,
+.pronta-consegna-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pronta-consegna-group {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.frame-wrapper2 {
+  width: 9.625rem;
+  flex-direction: column;
+  padding: var(--padding-10xs-9) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-mini-7);
+  color: var(--primary);
+}
+.audi-q3-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.suv2 {
+  position: relative;
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+  display: inline-block;
+  min-width: 1.563rem;
+}
+.frame-parent6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-7);
+}
+.car-icon8 {
+  align-self: stretch;
+  height: 7.256rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.vuesaxboldgas-station-icon2 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+}
+.l2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.438rem;
+}
+.l-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.vuesaxboldgas-station-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-4);
+}
+.car-icon9 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.375rem;
+}
+.manual2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.125rem;
+}
+.manual-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.car-parent4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-4);
+  min-width: 3.188rem;
+}
+.vuesaxboldprofile-2user-icon2 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+}
+.people2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.5rem;
+}
+.people-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.vuesaxboldprofile-2user-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-5);
+  min-width: 3.438rem;
+}
+.car-parent3,
+.spesification2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.spesification2 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-7xl-1);
+}
+.car-parent3 {
+  width: 16.794rem;
+  flex-direction: column;
+  padding: 0 0 0.281rem;
+  box-sizing: border-box;
+  gap: var(--gap-10xl-4);
+}
+.car-parent3,
+.rata5 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.rata4 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.375rem;
+}
+.rata7 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.rata6 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.375rem;
+  z-index: 1;
+  margin-left: -7.375rem;
+}
+.frame-wrapper3,
+.rata-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper3 {
+  flex-direction: column;
+  padding: 0.112rem 0 0;
+}
+.logo-drivalia-giusto-2 {
+  height: 1.694rem;
+  width: 7.438rem;
+  position: relative;
+  object-fit: contain;
+}
+.frame-parent7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs-8);
+  gap: var(--gap-6xl-5);
+  color: var(--color-chocolate);
+}
+.athlon-3 {
+  width: 8.063rem;
+  height: 2.25rem;
+  position: relative;
+  display: none;
+}
+.rent-now2 {
+  position: relative;
+  font-size: var(--font-size-mini-7);
+  font-weight: 600;
+  font-family: var(--text-text-1);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 4.438rem;
+}
+.button-rental-frame,
+.button-rental2,
+.div4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-rental2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-3) var(--padding-mid) var(--padding-3xs-2);
+  background-color: var(--primary);
+  border-radius: 11.06px;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button-rental2:hover,
+.button-rental3:hover {
+  background-color: var(--color-green);
+}
+.button-rental-frame,
+.div4 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-16xl);
+}
+.div4 {
+  border-radius: 11.06px;
+  background-color: var(--white);
+  border: 0.9px solid var(--stroke);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-mid) var(--padding-2xl)
+    var(--padding-2xl);
+  gap: var(--gap-10xl-5);
+}
+.price1 {
+  height: 2.531rem;
+  width: 7.313rem;
+  display: none;
+}
+.audi-q33,
+.suv3 {
+  position: relative;
+  display: inline-block;
+}
+.audi-q33 {
+  font-weight: 500;
+  min-width: 4.563rem;
+}
+.suv3 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+  min-width: 1.563rem;
+}
+.audi-q3-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-7);
+}
+.pronta-consegna2 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.frame-parent9,
+.pronta-consegna-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.pronta-consegna-wrapper {
+  width: 8.638rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.175rem 0 0;
+  text-align: center;
+  font-size: var(--font-size-mini-7);
+  color: var(--primary);
+}
+.frame-parent9 {
+  width: 16.363rem;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-8xs-6);
+  gap: var(--gap-xl);
+}
+.car-icon10 {
+  height: 7.256rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.car-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs-6);
+}
+.vuesaxboldgas-station-icon3 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+}
+.l3 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.438rem;
+}
+.l-wrapper1,
+.vuesaxboldgas-station-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.l-wrapper1 {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.vuesaxboldgas-station-parent1 {
+  flex-direction: row;
+  gap: var(--gap-5xs-4);
+}
+.car-icon11 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.375rem;
+}
+.automatic {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.313rem;
+}
+.automatic-wrapper,
+.car-parent5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.automatic-wrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.car-parent5 {
+  flex-direction: row;
+  gap: var(--gap-5xs-4);
+}
+.vuesaxboldprofile-2user-icon3 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+}
+.people3 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.5rem;
+}
+.people-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.spesification3,
+.vuesaxboldprofile-2user-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-4);
+}
+.spesification3 {
+  align-self: stretch;
+  gap: var(--gap-base-8);
+}
+.rata9,
+.spesification3 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.rata8 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.313rem;
+}
+.stellantis-logo-2-icon {
+  height: 1.613rem;
+  width: 7.625rem;
+  position: relative;
+  object-fit: contain;
+}
+.rata-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.div6 {
+  position: relative;
+  font-size: var(--font-size-xs-1);
+  text-decoration: line-through;
+  font-weight: 600;
+  color: var(--neutral-gray-4);
+  display: inline-block;
+  min-width: 2.875rem;
+  white-space: nowrap;
+}
+.frame-parent11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rent-now3 {
+  position: relative;
+  font-size: var(--font-size-mini-7);
+  font-weight: 600;
+  font-family: var(--text-text-1);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 4.438rem;
+}
+.button-rental-wrapper1,
+.button-rental3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-rental3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-3) var(--padding-mid) var(--padding-3xs-2);
+  background-color: var(--primary);
+  border-radius: 11.06px;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button-rental-wrapper1 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.frame-parent10,
+.frame-parent8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent10 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-2xs);
+  color: var(--color-chocolate);
+}
+.frame-parent8 {
+  flex: 1;
+  align-items: flex-start;
+  gap: 1.556rem;
+  min-width: 10.938rem;
+}
+.form-2-3-icon2 {
+  width: 1.006rem;
+  height: 0.781rem;
+  position: relative;
+}
+.filter-form {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.div5,
+.filter-form,
+.group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div5 {
+  align-self: stretch;
+  border-radius: 11.06px;
+  background-color: var(--white);
+  border: 0.9px solid var(--stroke);
+  flex-direction: row;
+  padding: var(--padding-2xl) var(--padding-12xs) var(--padding-xl)
+    var(--padding-2xl);
+  gap: 0.218rem;
+}
+.group {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-15xl-1);
+  min-width: 14.688rem;
+}
+.audi-q34,
+.suv4 {
+  position: relative;
+  display: inline-block;
+}
+.audi-q34 {
+  font-weight: 500;
+  min-width: 4.563rem;
+}
+.suv4 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+  min-width: 1.563rem;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-7);
+}
+.su-ordinazione1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 6.938rem;
+}
+.item-container,
+.status {
+  display: flex;
+  align-items: flex-start;
+}
+.status {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-9) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mini-7);
+  color: var(--color-darkgray-100);
+}
+.item-container {
+  width: 16.625rem;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.car-icon12 {
+  align-self: stretch;
+  height: 7.256rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.vuesaxboldgas-station-icon4 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+  flex-shrink: 0;
+}
+.l4 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.438rem;
+  flex-shrink: 0;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.vuesaxboldgas-station-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-3);
+}
+.automatic1,
+.car-icon13 {
+  position: relative;
+  flex-shrink: 0;
+}
+.car-icon13 {
+  height: 1.381rem;
+  width: 1.381rem;
+  overflow: hidden;
+  min-height: 1.375rem;
+}
+.automatic1 {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.313rem;
+}
+.automatic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.car-parent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-4);
+}
+.vuesaxboldprofile-2user-icon4 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+  flex-shrink: 0;
+}
+.people4 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.5rem;
+  flex-shrink: 0;
+}
+.people-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.vuesaxboldprofile-2user-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-5);
+}
+.car-and-specs,
+.spesification4 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.spesification4 {
+  flex-direction: row;
+  gap: 1.037rem;
+}
+.car-and-specs {
+  flex-direction: column;
+  gap: var(--gap-10xl-4);
+  flex-shrink: 0;
+}
+.rata11 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.rata10 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.313rem;
+}
+.logo-positivo-1-icon2 {
+  height: 1.494rem;
+  width: 6.181rem;
+  position: relative;
+  object-fit: cover;
+}
+.details,
+.pricing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pricing {
+  flex-direction: row;
+  gap: var(--gap-19xl);
+  flex-shrink: 0;
+  font-size: var(--font-size-lg-4);
+  color: var(--color-chocolate);
+}
+.details {
+  align-self: stretch;
+  height: 14.825rem;
+  flex-direction: column;
+  padding: 0 0 3.987rem;
+  box-sizing: border-box;
+  gap: 2.237rem;
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.rent-now4 {
+  position: relative;
+  font-size: var(--font-size-mini-7);
+  font-weight: 600;
+  font-family: var(--text-text-1);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 4.438rem;
+}
+.button-container1,
+.button-rental4,
+.content2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-rental4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-3) var(--padding-mid) var(--padding-3xs-2);
+  background-color: var(--stroke);
+  border-radius: 11.06px;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button-rental4:hover,
+.button-rental5:hover {
+  background-color: var(--color-silver-100);
+}
+.button-container1,
+.content2 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-2xs);
+}
+.content2 {
+  border-radius: 11.06px;
+  background-color: var(--white);
+  border: 1px solid var(--stroke);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-xl) var(--padding-2xl)
+    var(--padding-2xl);
+  gap: var(--gap-10xl-5);
+}
+.audi-q35,
+.suv5 {
+  position: relative;
+  display: inline-block;
+}
+.audi-q35 {
+  font-weight: 500;
+  min-width: 4.563rem;
+}
+.suv5 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+  min-width: 1.563rem;
+}
+.info-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-7);
+}
+.su-ordinazione2 {
+  position: relative;
+  font-size: var(--font-size-mini-7);
+  font-weight: 600;
+  color: var(--color-darkgray-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 6.938rem;
+}
+.item-container1 {
+  width: 16.275rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-7xs-8);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.car-icon14 {
+  align-self: stretch;
+  height: 7.256rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.vuesaxboldgas-station-icon5 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+  flex-shrink: 0;
+}
+.l5 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.438rem;
+  flex-shrink: 0;
+}
+.features1,
+.vuesaxboldgas-station-parent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.features1 {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.vuesaxboldgas-station-parent3 {
+  flex-direction: row;
+  gap: var(--gap-5xs-4);
+}
+.automatic2,
+.car-icon15 {
+  position: relative;
+  flex-shrink: 0;
+}
+.car-icon15 {
+  height: 1.381rem;
+  width: 1.381rem;
+  overflow: hidden;
+  min-height: 1.375rem;
+}
+.automatic2 {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.313rem;
+}
+.automatic-frame,
+.car-parent7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.automatic-frame {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.car-parent7 {
+  flex-direction: row;
+  gap: var(--gap-5xs-4);
+}
+.vuesaxboldprofile-2user-icon5 {
+  height: 1.381rem;
+  width: 1.381rem;
+  position: relative;
+  min-height: 1.375rem;
+  flex-shrink: 0;
+}
+.people5 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.5rem;
+  flex-shrink: 0;
+}
+.people-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.spesification5,
+.vuesaxboldprofile-2user-parent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-5);
+}
+.spesification5 {
+  align-self: stretch;
+  gap: var(--gap-base-8);
+}
+.rata13 {
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.rata12 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.375rem;
+}
+.price-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.118rem 0 0;
+}
+.logo-drivalia-giusto-21 {
+  height: 1.694rem;
+  width: 7.438rem;
+  position: relative;
+  object-fit: contain;
+}
+.pricing-container,
+.pricing1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.pricing1 {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-6xl-5);
+}
+.pricing-container {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-8xs);
+  font-size: var(--font-size-lg-4);
+  color: var(--color-chocolate);
+}
+.details1,
+.specifications-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.specifications-container {
+  align-items: flex-end;
+  gap: 1.456rem;
+}
+.details1 {
+  align-items: flex-start;
+  gap: var(--gap-10xl-5);
+  font-size: var(--font-size-smi-9);
+  color: var(--neutral-gray-4);
+}
+.price2 {
+  width: 7.375rem;
+  height: 2.531rem;
+  display: none;
+}
+.rent-now5 {
+  position: relative;
+  font-size: var(--font-size-mini-7);
+  font-weight: 600;
+  font-family: var(--text-text-1);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 4.438rem;
+}
+.button-container2,
+.button-rental5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-rental5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-3) var(--padding-mid) var(--padding-3xs-2);
+  background-color: var(--stroke);
+  border-radius: 11.06px;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button-container2 {
+  align-self: stretch;
+  justify-content: center;
+}
+.recommendation-item-five,
+.recommendation-item-six {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.recommendation-item-six {
+  align-self: stretch;
+  border-radius: 11.06px;
+  background-color: var(--white);
+  border: 0.9px solid var(--stroke);
+  align-items: flex-start;
+  padding: var(--padding-xl) var(--padding-2xl);
+  gap: 1.481rem;
+}
+.recommendation-item-five {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-15xl-1);
+  min-width: 14.688rem;
+}
+.frame-parent1,
+.recommendations,
+.search-bar1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--font-size-lg-4);
+  color: var(--color-gray-100);
+}
+.recommendations,
+.search-bar1 {
+  flex-direction: column;
+}
+.recommendations {
+  gap: 1.381rem;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 1.381rem;
+  color: var(--neutral-black);
+}
+.search-bar1 {
+  height: 64.694rem;
+  padding: 0 0 61.568rem;
+  box-sizing: border-box;
+  gap: 3.056rem;
+  max-width: 100%;
+}
+.inner-empty-container {
+  height: 1.956rem;
+  width: 10.744rem;
+  position: relative;
+  border-radius: 11.46px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.empty-container {
+  width: 54.744rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.filter-options-parent,
+.frame-group,
+.search-bar-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.search-bar-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 5.118rem;
+  max-width: calc(100% - 292px);
+  font-size: var(--font-size-smi-9);
+  color: #b0b0b0;
+}
+.filter-options-parent,
+.frame-group {
+  max-width: 100%;
+}
+.filter-options-parent {
+  width: 80.613rem;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-group {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-36xl);
+  text-align: left;
+  font-size: var(--text-text-2-size);
+  color: var(--black1);
+  font-family: var(--text-text-1);
+}
+.content1,
+.pagina-2 {
+  display: flex;
+  box-sizing: border-box;
+}
+.content1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-45xl) 0 var(--padding-52xl);
+  max-width: 100%;
+}
+.pagina-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 6.875rem;
+  gap: 0.468rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .top-navbar1 {
+    gap: var(--gap-275xl);
+    padding-left: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .search-bar1 {
+    padding-bottom: 40rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .cercarent1 {
+    font-size: var(--font-size-10xl);
+  }
+  .filter-options {
+    display: none;
+  }
+  .search-bar1 {
+    padding-bottom: 26rem;
+    box-sizing: border-box;
+  }
+  .search-bar-parent {
+    gap: 2.563rem;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header-contact {
+    display: none;
+  }
+  .top-navbar1 {
+    gap: var(--gap-128xl);
+  }
+  .hero-content {
+    flex-wrap: wrap;
+  }
+  .search-bar1 {
+    gap: var(--gap-5xl);
+  }
+  .search-bar-parent {
+    gap: var(--gap-xl);
+  }
+  .frame-group {
+    gap: 1.688rem;
+  }
+  .content1 {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header-contact {
+    gap: var(--gap-base);
+  }
+  .top-navbar1 {
+    gap: var(--gap-54xl);
+  }
+  .cercarent1 {
+    font-size: var(--font-size-3xl);
+  }
+  .tipologia {
+    font-size: var(--font-size-base);
+    line-height: 0.938rem;
+  }
+  .fuel-type-filter {
+    gap: var(--gap-base);
+  }
+  .alimentazione {
+    font-size: var(--font-size-base);
+    line-height: 0.938rem;
+  }
+  .electric-hybrid-filter,
+  .electric-hybrid-filter1 {
+    height: 4.663rem;
+  }
+  .cambio,
+  .marca-auto {
+    font-size: var(--font-size-base);
+    line-height: 0.938rem;
+  }
+  .brand-filter {
+    gap: var(--gap-base);
+  }
+  .search-field {
+    flex-wrap: wrap;
+  }
+  .recomendation-car1 {
+    font-size: var(--text-text-2-size);
+  }
+  .recomendation-car {
+    flex-wrap: wrap;
+  }
+  .audi-q3-parent {
+    flex-wrap: wrap;
+    gap: var(--gap-2xl);
+  }
+  .spesification {
+    flex-wrap: wrap;
+  }
+  .div1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frame-parent4,
+  .spesification1 {
+    flex-wrap: wrap;
+  }
+  .rata-group {
+    gap: var(--gap-lgi);
+  }
+  .parent {
+    gap: var(--gap-mid);
+  }
+  .audi-q3-container,
+  .spesification2 {
+    flex-wrap: wrap;
+  }
+  .div4,
+  .div5 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .div5 {
+    flex-wrap: wrap;
+  }
+  .group {
+    gap: var(--gap-mid);
+  }
+  .spesification4 {
+    flex-wrap: wrap;
+  }
+  .pricing {
+    gap: var(--gap-lgi);
+  }
+  .details {
+    height: 14.825rem;
+    gap: var(--gap-lg);
+  }
+  .content2 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .pricing1,
+  .spesification5 {
+    flex-wrap: wrap;
+  }
+  .recommendation-item-five {
+    gap: var(--gap-mid);
+  }
+  .search-bar1 {
+    height: auto;
+    padding-bottom: 16.875rem;
+    box-sizing: border-box;
+  }
+}
